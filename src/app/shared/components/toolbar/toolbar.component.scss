@@ -1,0 +1,27 @@
+.toolbar-wrapper {
+  background: rgba($color: #212121, $alpha: 0.25);
+  color: #fafafa;
+
+  mat-toolbar-row {
+    .spacer {
+      flex: 1 1 auto;
+    }
+
+    .logo-img {
+      max-height: 66px;
+    }
+
+    .menu-icon {
+      font-size: 2em;
+    }
+    .toolbar-links {
+      display: flex;
+      .toolbar-link-wrapper {
+        padding-right: 4px;
+        padding-left: 4px;
+      }
+    }
+
+  }
+}
+

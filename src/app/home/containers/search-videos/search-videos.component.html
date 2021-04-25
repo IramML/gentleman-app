@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-xs-12 text-center">
+    <h3 class="section-title">Canal de youtube</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12 mt-2 mb-2">
+    <mat-form-field class="search-input-wrapper" appearance="outline">
+      <mat-label>Buscar video</mat-label>
+      <input matInput placeholder="Video" [formControl]="searchVideoFormControl"/>
+      <mat-icon matSuffix class="seach-video-icon">search</mat-icon>
+    </mat-form-field>
+  </div>
+</div>
+<ng-container *ngIf="videos$ | async as videos">
+  <div class="row">
+    <div *ngFor="let video of videos" class="col-xs-12 col-md-6 mt-1">
+      <app-youtube-video [video]="video"></app-youtube-video>
+    </div>
+  </div>
+</ng-container>

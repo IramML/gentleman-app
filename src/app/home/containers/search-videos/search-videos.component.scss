@@ -1,0 +1,43 @@
+:host {
+  color: #fff;
+  .section-title {
+    font-size: 1.8em;
+    font-weight: bold;
+  }
+
+  .search-input-wrapper {
+    width: 100%;
+  }
+
+  .seach-video-icon {
+    cursor: pointer;
+  }
+
+  ::ng-deep {
+    .mat-form-field {
+      color: #fff;
+      .mat-input-element {
+        color: #fff;
+      }
+      .mat-form-field-label {
+        color: #fff;
+      }
+      .mat-form-field-underline {
+        background-color: #fff;
+      }
+      .mat-form-field-ripple {
+        background-color: #fff;
+      }
+      .mat-form-field-required-marker {
+        color: #fff;
+      }
+    }
+    .mat-form-field-appearance-outline .mat-form-field-outline {
+      color: rgba(255, 255, 255, 0.2);
+    }
+    .mat-input-element::placeholder{
+      color: #E0E0E0;
+    }
+  }
+}
+

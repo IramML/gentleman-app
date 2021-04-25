@@ -1,0 +1,98 @@
+.main-illustration-wrapper {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin: auto;
+
+  .figure-blob-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    animation: 3s infinite backIllustrationAnim linear;
+
+    div {
+      width: 280px;
+      height: 280px;
+      background: linear-gradient(to top, #880E4F, #AD1457, #C2185B, #E91E63, #E91E63, #C2185B, #AD1457, #880E4F) bottom/100% 200%;
+      -webkit-mask: url('data:image/svg+xml;utf8,<svg viewBox="20 20 160 160" xmlns="http://www.w3.org/2000/svg"><path d="M40,-54.8C49.9,-47.9,54.7,-33.6,60.1,-19C65.5,-4.5,71.6,10.4,67.9,22.2C64.2,34,50.8,42.7,37.8,47.9C24.9,53.1,12.4,54.8,-2.4,58.1C-17.2,61.4,-34.4,66.2,-48.8,61.5C-63.1,56.7,-74.5,42.3,-77.6,26.7C-80.7,11,-75.5,-5.9,-66.4,-17.8C-57.4,-29.8,-44.6,-36.8,-32.9,-43.1C-21.2,-49.4,-10.6,-55,2.2,-58.1C15,-61.2,30.1,-61.7,40,-54.8Z" transform="translate(100 100)" /></svg>')
+        center/contain;
+      mask: url('data:image/svg+xml;utf8,<svg viewBox="20 20 160 160" xmlns="http://www.w3.org/2000/svg"><path d="M40,-54.8C49.9,-47.9,54.7,-33.6,60.1,-19C65.5,-4.5,71.6,10.4,67.9,22.2C64.2,34,50.8,42.7,37.8,47.9C24.9,53.1,12.4,54.8,-2.4,58.1C-17.2,61.4,-34.4,66.2,-48.8,61.5C-63.1,56.7,-74.5,42.3,-77.6,26.7C-80.7,11,-75.5,-5.9,-66.4,-17.8C-57.4,-29.8,-44.6,-36.8,-32.9,-43.1C-21.2,-49.4,-10.6,-55,2.2,-58.1C15,-61.2,30.1,-61.7,40,-54.8Z" transform="translate(100 100)" /></svg>')
+        center/contain;
+      animation: 5s infinite gradient linear;
+    }
+  }
+  .figure-blob-middle {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    animation: 3s infinite middleIllustrationAnim linear;
+
+    div {
+      width: 280px;
+      height: 280px;
+      background: linear-gradient(to top, #5C0937, #750C45, #C21373, #EA1889, #EA1889, #C21373, #750C45, #5C0937) bottom/100% 200%;
+      -webkit-mask: url('data:image/svg+xml;utf8,<svg viewBox="20 20 160 160" xmlns="http://www.w3.org/2000/svg"><path d="M40.7,-54.5C53.1,-46.9,63.8,-35.6,69.2,-21.8C74.5,-8.1,74.5,8,67.7,19.9C61,31.7,47.5,39.3,35.1,48.1C22.7,56.8,11.3,66.9,-2.1,69.7C-15.5,72.5,-30.9,68.2,-42,59C-53,49.7,-59.6,35.6,-65.3,20.6C-71.1,5.6,-76,-10.3,-74,-26.4C-72,-42.4,-63.1,-58.5,-49.6,-65.7C-36.2,-72.9,-18.1,-71.2,-2,-68.5C14.1,-65.7,28.2,-62,40.7,-54.5Z" transform="translate(100 100)" /></svg>')
+        center/contain;
+      mask: url('data:image/svg+xml;utf8,<svg viewBox="20 20 160 160" xmlns="http://www.w3.org/2000/svg"><path d="M40.7,-54.5C53.1,-46.9,63.8,-35.6,69.2,-21.8C74.5,-8.1,74.5,8,67.7,19.9C61,31.7,47.5,39.3,35.1,48.1C22.7,56.8,11.3,66.9,-2.1,69.7C-15.5,72.5,-30.9,68.2,-42,59C-53,49.7,-59.6,35.6,-65.3,20.6C-71.1,5.6,-76,-10.3,-74,-26.4C-72,-42.4,-63.1,-58.5,-49.6,-65.7C-36.2,-72.9,-18.1,-71.2,-2,-68.5C14.1,-65.7,28.2,-62,40.7,-54.5Z" transform="translate(100 100)" /></svg>')
+        center/contain;
+      animation: 5s infinite gradient linear;
+    }
+  }
+
+  .figure-blob-front {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    border-radius: 16px;
+
+    width: 242px;
+    height: 242px;
+    transform: translateY(-20px);
+    animation: 3s infinite middleIllustrationAnim linear;
+    animation-delay: 0.7s;
+  }
+}
+
+
+@keyframes backIllustrationAnim {
+  0% {
+    transform: translateY(28px);
+  }
+  50% {
+    transform: translateY(-28px);
+  }
+  100% {
+    transform: translateY(28px);
+  }
+}
+
+@keyframes middleIllustrationAnim {
+  0% {
+    transform: translateY(-28px);
+  }
+  50% {
+    transform: translateY(28px);
+  }
+  100% {
+    transform: translateY(-28px);
+  }
+}
+
+@keyframes gradient {
+  0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 0% 100%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
