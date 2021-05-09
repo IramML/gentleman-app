@@ -5,17 +5,35 @@
 </div>
 <div class="row">
   <div class="col-xs-12 mt-2 mb-2">
-    <mat-form-field class="search-input-wrapper" appearance="outline">
+    <mat-form-field class="search-input-wrapper" color="primary" appearance="outline">
       <mat-label>Buscar video</mat-label>
       <input matInput placeholder="Video" [formControl]="searchVideoFormControl"/>
       <mat-icon matSuffix class="seach-video-icon">search</mat-icon>
     </mat-form-field>
   </div>
 </div>
-<ng-container *ngIf="videos$ | async as videos">
+<ng-container *ngIf="videos$ | async as videos; else loadingSpinner">
+  <ng-container *ngIf="!showIsLoading else loadingSpinner">
+    <ng-container *ngIf="videos.length > 0 else unavailableVidepo">
+      <div class="row">
+        <div *ngFor="let video of videos" class="col-xs-12 col-md-6 mt-1">
+          <app-youtube-video [video]="video"></app-youtube-video>
+        </div>
+      </div>
+    </ng-container>
+  </ng-container>
+</ng-container>
+
+<ng-template #loadingSpinner>
+  <div class="spinner-wrapper">
+    <mat-spinner></mat-spinner>
+  </div>
+</ng-template>
+<ng-template #unavailableVidepo>
   <div class="row">
-    <div *ngFor="let video of videos" class="col-xs-12 col-md-6 mt-1">
-      <app-youtube-video [video]="video"></app-youtube-video>
+    <div class="col-xs-12 text-center">
+      <h5 class="unavailable-videos">Video no disponible</h5>
     </div>
   </div>
-</ng-container>
+</ng-template>
+

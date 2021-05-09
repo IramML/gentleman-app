@@ -1,5 +1,5 @@
 
-<mat-card>
+<mat-card class="glass-card">
   <iframe [src]='video.id.videoId | youtubeSanitizer' frameborder="0" class="youtube-video" allowfullscreen></iframe>
   <mat-card-header>
     <mat-card-title>{{ video.snippet.title }}</mat-card-title>
@@ -7,7 +7,4 @@
   <mat-card-content>
     <p>{{ video.snippet.description }}</p>
   </mat-card-content>
-  <mat-card-actions>
-    <a mat-button color="primary" [href]="'https://www.youtube.com/watch?v=' + video.id.videoId">Ver en YouTube</a>
-  </mat-card-actions>
 </mat-card>

@@ -11,10 +11,12 @@ import { SearchVideosComponent } from './containers/search-videos/search-videos.
 import { YoutubeVideoComponent } from './components/youtube-video/youtube-video.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MainContentComponent } from './components/main-content/main-content.component';
+import { DiscordCommunityComponent } from './components/discord-community/discord-community.component';
+import { YoutubeChannelComponent } from './components/youtube-channel/youtube-channel.component';
 
 
 @NgModule({
-  declarations: [HomeComponent, MainIllustrationComponent, SearchVideosComponent, YoutubeVideoComponent, MainContentComponent],
+  declarations: [HomeComponent, MainIllustrationComponent, SearchVideosComponent, YoutubeVideoComponent, MainContentComponent, DiscordCommunityComponent, YoutubeChannelComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,

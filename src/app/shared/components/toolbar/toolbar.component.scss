@@ -14,14 +14,30 @@
     .menu-icon {
       font-size: 2em;
     }
+    .nav-link-label {
+      display: none;
+    }
     .toolbar-links {
       display: flex;
       .toolbar-link-wrapper {
         padding-right: 4px;
         padding-left: 4px;
+        a:focus {
+          outline: solid 1px #AD1457;
+        }
       }
     }
 
   }
 }
 
+
+@media screen and (min-width: 768px) {
+  .toolbar-wrapper {
+    mat-toolbar-row {
+      .nav-link-label {
+        display: inline;
+      }
+    }
+  }
+}

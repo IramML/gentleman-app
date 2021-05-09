@@ -1,102 +1,102 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 $mustacheColor: #F48FB1;
-
-.intro-wrapper {
-  position: relative;
-  color: #fff;
-  .title-wrapper {
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    .title {
-      font-family: 'Alfa Slab One', cursive;
-      font-size: 2.2em;
-      background: -webkit-linear-gradient(#FAFAFA, #F48FB1);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    .mustache-wrapper {
-      position: relative;
-      width: 38px;
-
-      .campus {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-
-        .mustache {
-          width: 18px;
-          height: 18px;
-          border-radius: 50%;
-          color: #fff;
+:host {
+  .intro-wrapper {
+    position: relative;
+    color: #fff;
+    .title-wrapper {
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      .title {
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 2.2em;
+        color: #F48FB1;
+      }
+  
+      .mustache-wrapper {
+        position: relative;
+        width: 38px;
+  
+        .campus {
           position: absolute;
-
           top: 0;
-          left: 0;
-
-          transition: all 0.4s ease-in-out;
-          box-shadow: 15px 24px 0 0 $mustacheColor, 30px 24px 0 0 $mustacheColor;
-          transform: scale(0.5);
-        }
-
-        .mustache::before {
-          box-sizing: content-box;
-          content: "";
-          position: absolute;
-
-          top: 12px;
-          left: 3px;
-          width: 21px;
-          height: 12px;
-
-          border-bottom: 18px solid $mustacheColor;
-          border-radius: 0 0 0 100%;
-
-          transform: rotate(-40deg);
-          transform-origin: right 21px;
-
-          animation-name: left;
-          animation-duration: 4.5s;
-          animation-delay: 1.5s;
-          animation-iteration-count: infinite;
-        }
-
-        .mustache::after {
-          box-sizing: content-box;
-          content: "";
-          position: absolute;
-          top: 12px;
-          left: 39px;
-          width: 21px;
-          height: 12px;
-          border-bottom: 18px solid $mustacheColor;
-          border-radius: 0 0 100% 0;
-
-          transform: rotate(40deg);
-          transform-origin: left 21px;
-          transition: all 0.4s ease-in-out;
-          transition-delay: 1s;
-
-          animation-name: right;
-          animation-duration: 4.5s;
-          animation-delay: 1.5s;
-          animation-iteration-count: infinite;
+          right: 0;
+          width: 100%;
+          height: 100%;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+  
+          .mustache {
+            width: 18px;
+            height: 18px;
+            border-radius: 50%;
+            color: #fff;
+            position: absolute;
+  
+            top: 0;
+            left: 0;
+  
+            transition: all 0.4s ease-in-out;
+            box-shadow: 15px 24px 0 0 $mustacheColor, 30px 24px 0 0 $mustacheColor;
+            transform: scale(0.5);
+          }
+  
+          .mustache::before {
+            box-sizing: content-box;
+            content: "";
+            position: absolute;
+  
+            top: 12px;
+            left: 3px;
+            width: 21px;
+            height: 12px;
+  
+            border-bottom: 18px solid $mustacheColor;
+            border-radius: 0 0 0 100%;
+  
+            transform: rotate(-40deg);
+            transform-origin: right 21px;
+  
+            animation-name: left;
+            animation-duration: 4.5s;
+            animation-delay: 1.5s;
+            animation-iteration-count: infinite;
+          }
+  
+          .mustache::after {
+            box-sizing: content-box;
+            content: "";
+            position: absolute;
+            top: 12px;
+            left: 39px;
+            width: 21px;
+            height: 12px;
+            border-bottom: 18px solid $mustacheColor;
+            border-radius: 0 0 100% 0;
+  
+            transform: rotate(40deg);
+            transform-origin: left 21px;
+            transition: all 0.4s ease-in-out;
+            transition-delay: 1s;
+  
+            animation-name: right;
+            animation-duration: 4.5s;
+            animation-delay: 1.5s;
+            animation-iteration-count: infinite;
+          }
         }
       }
+  
     }
-
-  }
-  .subtitle-wrapper {
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 1.4em;
+    .subtitle-wrapper {
+      font-family: 'Alfa Slab One', cursive;
+      font-size: 1.4em;
+    }
   }
 }
+
 
 @keyframes left {
   0% {

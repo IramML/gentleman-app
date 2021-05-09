@@ -1,0 +1,344 @@
+{
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZJCrEM8ATKDBdIBXqtd4YqqHC5M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8mPqYTfMyWQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-30T18:11:58Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "GIT, a ver como es esto 🤔",
+        "description": "Buenas my people !! Se viene el 6to curso de Aprendiendo a programar desde 0 !! en el día 30, a las 18:00hs España... GIT. Una de las cosas que siempre van ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8mPqYTfMyWQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8mPqYTfMyWQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8mPqYTfMyWQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-30T18:11:58Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "r3P0eptrQhdaDN3zNJZVS_oG52c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lMU9kXItjz0"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-23T19:31:27Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "CSS... eso se come o qué ?? 🥴🥴",
+        "description": "Buenas a todos !!! Quinta parte de la serie: Aprendiendo a programar desde 0 !! - Cansado de pelear con cajitas y que nunca queden las cosas como quieres ?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lMU9kXItjz0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lMU9kXItjz0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lMU9kXItjz0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-23T19:31:27Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_2Gri0H4zmbrxRLzDbF-G6lWmvY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JtjA6eymc1I"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-17T05:39:35Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Veamos... qué es HTML y qué es el DOM ?",
+        "description": "Buenas a todos !!! cuarta parte de la serie: Aprendiendo a programar desde 0 !! Alguna vez haz oido del DOM pero no llegas a comprender qué es realmente ?",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JtjA6eymc1I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JtjA6eymc1I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JtjA6eymc1I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-17T05:39:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KgmU-SJsG4be6HbCp8cwYpZGbxo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "JdfOgh8hIh0"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-09T05:54:06Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Hablemos Sobre Ti ! con la participación de Diego Bollini",
+        "description": "Buenas a todos !!! vuelve... Hablemos Sobre Ti !! en este caso uno de nuestros Gentleman Programmers de la comunidad !! El señor....Diego Bollini !! Qué nos ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/JdfOgh8hIh0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/JdfOgh8hIh0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/JdfOgh8hIh0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-09T05:54:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "g2uWC0id5-FCx_q3rL1qii8xt5E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "EbpM-i6GZjs"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-07T05:03:22Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Principios SOLID !",
+        "description": "Tercera parte de nuestras clases de aprender a programar desde 0 !! En la clase de hoy se verán los conceptos de los principios SOLID. Así que si tienes ganas ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EbpM-i6GZjs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EbpM-i6GZjs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EbpM-i6GZjs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-07T05:03:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Ps3gx1hQy6ZDQ9BDo9VJLV2gpOI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "NEo3s1YN6gU"
+      },
+      "snippet": {
+        "publishedAt": "2021-04-04T05:11:08Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Librería Gentleman State Manager - Programación reactiva, Rxjs, &#39;Single Source of Truth&#39; y más !",
+        "description": "Buenas a todos !!! En el día de hoy vengo a compartirles una librería que he creado para la comunidad para poder manejar el estado de una aplicación de ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/NEo3s1YN6gU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/NEo3s1YN6gU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/NEo3s1YN6gU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-04-04T05:11:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_Ub_FglgMjohh_SJMxhE7NHWjHU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "RXaIFslX6uI"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-30T08:00:19Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Gentleman Programming jurado de Comfeco 2021 !!",
+        "description": "Ha sido todo un placer ser jurado en el evento de Community Fest and Code !!! les dejo la retransmisión en formato premiere para que lo puedan ver todos ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/RXaIFslX6uI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/RXaIFslX6uI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/RXaIFslX6uI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-30T08:00:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bM4vq0ZvFDvSsOaGKUGS-HiFLo0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2jfIfeY4lrQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-27T06:08:14Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Clase de Programación Orientada a Objetos !",
+        "description": "Segunda parte de nuestras clases de aprender a programar desde 0 !! En la clase de hoy veremos como realizar la famosa programación orientada a objetos !!",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2jfIfeY4lrQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2jfIfeY4lrQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2jfIfeY4lrQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-27T06:08:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bHirFHl9MORgPxZaHx8qnmjCGfk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "9_8Biy10kW0"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-20T06:47:19Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Empezando a programar desde 0 !",
+        "description": "Hoy vamos a aprender a programar desde 0 !! Veremos qué es un programador, cómo cambiaremos nuestras formas de pensar y les daré tips para poder ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9_8Biy10kW0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9_8Biy10kW0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9_8Biy10kW0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-20T06:47:19Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "P7pkG7OWIDx2-mrlSImbx05WOSg",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PL42UNLc8e48RXfDA4M8x8x23_ECV7EBIQ"
+      },
+      "snippet": {
+        "publishedAt": "2021-03-19T18:48:40Z",
+        "channelId": "UCbx_d228PdYwgB4Jz202SIQ",
+        "title": "Programando de 0 !",
+        "description": "Hoy vamos a aprender a programar desde 0 !! Veremos qué es un programador, cómo cambiaremos nuestras formas de pensar y les daré tips para poder ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/9_8Biy10kW0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/9_8Biy10kW0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/9_8Biy10kW0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Gentleman Programming",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-03-19T18:48:40Z"
+      }
+    }
+  ]
+}

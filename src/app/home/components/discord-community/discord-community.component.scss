@@ -1,0 +1,34 @@
+:host {
+  color: #fff;
+
+  .section-title-wrapper {
+    text-align: center;
+    h3 {
+      font-size: 1.8em;
+      font-weight: bold;
+    }
+  }
+
+  .welcome-image {
+    width: 80%;
+    border-radius: 8px;
+    max-width: 420px;
+
+  }
+
+  .discord-channels-img {
+    max-width: 175px;
+  }
+
+  .discord-feature-title {
+    font-size: 1.8em;
+    color: #F8BBD0;
+  }
+
+  .pink-neon-border { border: solid #D81B60 1px; }
+
+  .channels-title {
+    font-size: 1.4em;
+    font-weight: 600;
+  }
+}

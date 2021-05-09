@@ -1,0 +1,17 @@
+.youtube-channel-wrapper {
+    position: relative;
+    text-align: center;
+    .youtube-channel-img {
+        width: 80%;
+    }
+    .cta-title {
+        text-align: center;
+        font-size: 2em;
+    }
+    .cta-wrapper {
+        text-align: center;
+        .cta-icon {
+            font-size: 2em;
+        }
+    }
+}

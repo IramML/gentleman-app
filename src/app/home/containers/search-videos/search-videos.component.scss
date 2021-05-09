@@ -7,19 +7,14 @@
 
   .search-input-wrapper {
     width: 100%;
-  }
-
-  .seach-video-icon {
-    cursor: pointer;
+    input {
+      outline: none;
+    }
   }
 
   ::ng-deep {
     .mat-form-field {
-      color: #fff;
       .mat-input-element {
-        color: #fff;
-      }
-      .mat-form-field-label {
         color: #fff;
       }
       .mat-form-field-underline {
@@ -32,12 +27,33 @@
         color: #fff;
       }
     }
-    .mat-form-field-appearance-outline .mat-form-field-outline {
+
+    .mat-form-field-label {
+      color: #fff;
+    }
+
+    .mat-form-field-outline {
       color: rgba(255, 255, 255, 0.2);
     }
     .mat-input-element::placeholder{
       color: #E0E0E0;
     }
   }
-}
 
+  .spinner-wrapper {
+    margin: auto;
+    text-align: center;
+    ::ng-deep {
+      .mat-spinner {
+        margin: auto;
+        circle {
+          stroke: #fff;
+        }
+      }
+    }
+  }
+
+  .unavailable-videos {
+    font-size: 1.8em;
+  }
+}
